@@ -1,13 +1,17 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/* more headers goes there */
 
 /*
+* main - Entry point
+*
 *This program will assign a random number to the variable n each time it is
 *executed. If n is > 0 positive is output, if n = 0 zero is output, if n <
 *0 negative is output.
+*
+* Return: Always 0 (Success)
 */
+
 int main(void)
 {
 	int n;
