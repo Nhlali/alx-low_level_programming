@@ -3,7 +3,8 @@
 #include <stdio.h>
 /* more headers goes there */
 
-/* betty style doc for function main goes there */
+/* This program will assign a random number to the variable n each time it is executed. If n is > 0 positive is output,
+if n = 0 zero is output, if n < 0 negative is output */
 int main(void)
 {
 	int n;
@@ -12,15 +13,15 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 	if (n > 0)
 	{
-		printf("%d is positive\n",n);
+		printf("%d is positive\n", n);
 	}
 	else if (n == 0)
 	{
-		printf("%d is zero\n",n);
+		printf("%d is zero\n", n);
 	}
 	else if (n < 0)
 	{
-		printf("%d is negative\n",n);
+		printf("%d is negative\n", n);
 	}
 	return (0);
 }
