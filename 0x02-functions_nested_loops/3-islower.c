@@ -6,8 +6,7 @@
 *
 * @c :  The character to test.
 *
-* Return: lowercase 1.
-* Return: otherwise 0.
+* Return: lowercase 1, otherwise 0.
 *
 */
 int _islower(int c)
