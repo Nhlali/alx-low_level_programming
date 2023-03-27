@@ -5,18 +5,17 @@
 *
 * @s : pointer.
 *
+* return: length of string;
 */
 int _strlen(char *s)
 {
-	char temp;
-	int i = 0;
+	unsigned int count = 0;
 
-	temp = *(s + sizeof(char));
-	while (temp != '\0')
-	{
-		i++;
-		temp = *(s + i * sizeof(char));
-	}
+    while(*s!='\0')
+    {
+        count++;
+        s++;
+    }
 
-	return (i);
+    return count;
 }
