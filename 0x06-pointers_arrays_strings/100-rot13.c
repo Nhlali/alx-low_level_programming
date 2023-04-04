@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-* *rot13 - function that encodes a string using rot13.
+* rot13 - function that encodes a string using rot13.
 *
 * @s: pointer pointed to the variable s , of type character
 *
@@ -23,6 +23,7 @@ char *rot13(char *s)
 	while (*s != '\0')
 	{
 		i = 0;
+
 		while (i < 53)
 		{
 			if (*s == original[i])
