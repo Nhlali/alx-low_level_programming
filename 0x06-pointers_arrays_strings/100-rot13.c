@@ -13,7 +13,7 @@ char *rot13(char *s)
 {
 	int i;
 	char *p;
-	*p = s;
+	p = s;
 
 	char *original = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
 	char *code = "NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm";
