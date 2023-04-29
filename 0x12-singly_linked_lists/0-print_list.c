@@ -17,11 +17,11 @@ size_t print_list(const list_t *h)
 	int count = 0;
 	current_node = h;
 
-	while(current_node)
+	while (current_node)
 	{
 		if (current_node->str)
 		{
-			printf("[%d] %s\n",current_node->len,current_node->str);
+			printf("[%d] %s\n", current_node->len,current_node->str);
 			count++;
 		}
 		else
