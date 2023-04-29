@@ -1,5 +1,4 @@
 #include <stdlib.h>
-#include <stdio.h>
 #include "lists.h"
 
 /**
@@ -14,16 +13,13 @@
 
 size_t list_len(const list_t *h)
 {
-	list_t *current_node;
+	const list_t *current_node;
 	int count = 0;
 	current_node = h;
 
 	while (current_node)
 	{
-		if (current_node->str)
-		{
-			count++;
-		}
+		count++;
 
 		if (current_node->next)
 		{
