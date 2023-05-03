@@ -6,7 +6,7 @@
 * @argv : array that contains the arguments.
 * Return: 0.
 */
- 
+
 int main(int argc, char *argv[])
 {
 
